@@ -1,0 +1,63 @@
+{
+  "optionalFeatures": {
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": true,
+    "aggressiveUserFullScreenExperience": true,
+    "asynchronousSoftwareUpdate": false,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        }
+      ],
+      "requiredInstallationDate": "2023-08-15T00:00:01Z",
+      "requiredMinimumOSVersion": "12.5",
+      "targetedOSVersionsRule": "12"
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 1000000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 1800,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 2400,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/tmp/nudge/appleRainbow.png",
+    "iconLightPath": "/tmp/nudge/appleRainbow.png",
+    "screenShotDarkPath": "/tmp/nudge/updateDark.png",
+    "screenShotLightPath": "/tmp/nudge/updateLight.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "informationButtonText": "More Info About Updates At Figma",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes About This Update",
+        "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
+        "mainContentText": "A fully up-to-date device is required to ensure the security of Figma's data.\n\nIf you do not update by the due date, you will effectively be locked out of your system until you complete the update.\n\nThe update has been rigorously tested it's advised you do this as soon as possible to avoid any disruption to your work.\n\nTo begin the update, simply click on the Update Device button and follow the prompts.\n\nFor more information, hit *More Info* in the bottom left corner of this window.",
+        "mainHeader": "Your device requires a macOS Security Update",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from your local Figma IT team"
+      }
+    ]
+  }
+}
