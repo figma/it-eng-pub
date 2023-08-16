@@ -3,7 +3,7 @@
     "acceptableCameraUsage": true,
     "acceptableScreenSharingUsage": true,
     "aggressiveUserExperience": true,
-    "aggressiveUserFullScreenExperience": true,
+    "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": false,
     "attemptToFetchMajorUpgrade": false,
     "enforceMinorUpdates": true
@@ -16,7 +16,7 @@
           "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
         }
       ],
-      "requiredInstallationDate": "2023-08-15T00:00:01Z",
+      "requiredInstallationDate": "2023-08-18T00:00:01Z",
       "requiredMinimumOSVersion": "13.5",
       "targetedOSVersionsRule": "13"
     }
