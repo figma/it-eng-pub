@@ -47,7 +47,7 @@
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "OPen Software Update",
+        "actionButtonText": "Open Software Update",
         "informationButtonText": "More Info About Updates At Figma",
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes About This Update",
