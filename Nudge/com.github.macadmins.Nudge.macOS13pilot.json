@@ -52,7 +52,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes About This Update",
         "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
-        "mainContentText": "A fully up-to-date device is required to ensure the security of Figma's data.\n\nIf you do not update by the due date, you will no longer be able to defer the prompts.\n\nTo begin the update simply select the Open Software Update button above and it will redirect you to the Software Update prompts within System Preferences.", 
+        "mainContentText": "A fully up-to-date device is required to ensure the security of Figma's data.\n\nIn the realm of Figma's vast design suite, The IT team steps with cautious, nimble feet. For to innovate, progress and stay ahead, One must adapt, or be left behind instead. With every macOS that comes anew, There's more than just a changing view. Security tightens, bugs meet their fate, Performance heightens, features first-rate. So heed the call, dear team of creative might, Update your systems, join the modern flight. For together, with technology at our prime, Figma and its people will thrive in time.\n\nTo begin the update simply select the Open Software Update button above and it will redirect you to the Software Update prompts within System Preferences.", 
         "mainHeader": "Your device requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
