@@ -1,0 +1,64 @@
+{
+  "optionalFeatures": {
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": false,
+    "aggressiveUserFullScreenExperience": false,
+    "asynchronousSoftwareUpdate": false,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        }
+      ],
+      "requiredInstallationDate": "2023-11-28T00:00:01Z",
+      "requiredMinimumOSVersion": "14.1.1",
+      "targetedOSVersionsRule": "14"
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 1000000,
+    "allowLaterDeferralButton": false,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 1800,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 2400,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Users/Shared/Nudge/fig.png",
+    "iconLightPath": "/Users/Shared/Nudge/fig.png",
+    "screenShotDarkPath": "/Users/Shared/Nudge/supdate.png",
+    "screenShotLightPath": "/Users/Shared/Nudge/supdate.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Open Software Update",
+        "informationButtonText": "More Info About Updates At Figma",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes About This Update",
+        "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
+        "mainContentText": "To keep your Mac in shape, you see, an update's more than just a plea. Ignore it now, you might regret, when glitches make you break a sweat. Security's not a game of chance, so please give updates their fair dance. Click that prompt, make your Mac new, from IT with love, we're here for you.\n\nTo begin the update simply select the Open Software Update button above and it will redirect you to the Software Update prompts within System Preferences.", 
+        "mainHeader": "Your device requires a macOS Security Update",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from your Figma IT team"
+      }
+    ]
+  }
+}
