@@ -17,12 +17,13 @@
         }
       ],
       "requiredInstallationDate": "2023-08-15T00:00:01Z",
-      "requiredMinimumOSVersion": "12.6.8",
+      "requiredMinimumOSVersion": "12.7.1",
       "targetedOSVersionsRule": "12"
     }
   ],
   "userExperience": {
     "allowedDeferrals": 1000000,
+    "allowLaterDeferralButton": false,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 6000,
     "approachingWindowTime": 72,
@@ -37,26 +38,26 @@
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
-    "iconDarkPath": "/tmp/nudge/appleRainbow.png",
-    "iconLightPath": "/tmp/nudge/appleRainbow.png",
-    "screenShotDarkPath": "/tmp/nudge/updateDark.png",
-    "screenShotLightPath": "/tmp/nudge/updateLight.png",
+    "iconDarkPath": "/Users/Shared/Nudge/fig.png",
+    "iconLightPath": "/Users/Shared/Nudge/fig.png",
+    "screenShotDarkPath": "/Users/Shared/Nudge/supdate.png",
+    "screenShotLightPath": "/Users/Shared/Nudge/supdate.png",
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "Update Device",
+        "actionButtonText": "Open Software Update",
         "informationButtonText": "More Info About Updates At Figma",
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes About This Update",
         "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
-        "mainContentText": "A fully up-to-date device is required to ensure the security of Figma's data.\n\nIf you do not update by the due date, you will effectively be locked out of your system until you complete the update.\n\nThe update has been rigorously tested it's advised you do this as soon as possible to avoid any disruption to your work.\n\nTo begin the update, simply click on the Update Device button and follow the prompts.\n\nFor more information, hit *More Info* in the bottom left corner of this window.",
+        "mainContentText": "To keep your Mac in shape, you see, an update's more than just a plea. Ignore it now, you might regret, when glitches make you break a sweat. Security's not a game of chance, so please give updates their fair dance. Click that prompt, make your Mac new, from IT with love, we're here for you.\n\nTo begin the update simply select the Open Software Update button above and it will redirect you to the Software Update prompts within System Preferences.", 
         "mainHeader": "Your device requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
-        "subHeader": "A friendly reminder from your local Figma IT team"
+        "subHeader": "A friendly reminder from your Figma IT team"
       }
     ]
   }
