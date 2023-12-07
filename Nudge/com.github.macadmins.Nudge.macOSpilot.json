@@ -53,7 +53,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes About This Update",
         "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
-        "mainContentText": "A fully up-to-date device is required to ensure the security of Figma's data.\n\nPlease update your macOS device within the allocated *Days Remaining To Update* found in the left column of this window.\nTo begin the update, simply click on the *Open Software Update* button and follow the prompts. Although it is recommended you are not required to update the OS to macOS Sonoma, simply scroll down within Software Update to *Other Updates Available* and install from there.\n\nFor more information, hit *More Info About Updates At Figma* in the bottom left corner of this window.",        
+        "mainContentText": "A fully up-to-date device ensures the security of Figma's data.\nPlease update your macOS device within the allotted *Days Remaining To Update* in the left column of this window.\n\nTo begin the update, click the *Open Software Update* button and follow the prompts.\nAdditional info about this can be found by clicking the *More Info About Updates At Figma* link.",
         "mainHeader": "Your device requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
