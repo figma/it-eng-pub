@@ -6,7 +6,8 @@
     "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": false,
     "attemptToFetchMajorUpgrade": false,
-    "enforceMinorUpdates": true
+    "enforceMinorUpdates": true,
+    "disableSoftwareUpdateWorkflow": true    
   },
   "osVersionRequirements": [
     {
@@ -16,9 +17,10 @@
           "aboutUpdateURL": "https://www.notion.so/figma/Nudge-macOS-Updates-08ff479f262542c09c26cf2ad9ac3551"
         }
       ],
-      "requiredInstallationDate": "2024-01-15T00:00:01Z",
-      "requiredMinimumOSVersion": "12.7.1",
-      "targetedOSVersionsRule": "12"
+      "requiredInstallationDate": "2024-04-02T00:00:01Z",
+      "requiredMinimumOSVersion": "14.0.0",
+      "targetedOSVersionsRule": "default",
+      "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
     }
   ],
   "userExperience": {
@@ -45,6 +47,7 @@
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
+    "actionButtonPath": "/System/Library/CoreServices/Software Update.app",
     "updateElements": [
       {
         "_language": "en",
@@ -52,8 +55,8 @@
         "informationButtonText": "More Info About Updates At Figma",
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes About This Update",
-        "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
-        "mainContentText": "To keep your Mac in shape, you see, an update's more than just a plea. Ignore it now, you might regret, when glitches make you break a sweat. Security's not a game of chance, so please give updates their fair dance. Click that prompt, make your Mac new, from IT with love, we're here for you.\n\nTo begin the update simply select the Open Software Update button above and it will redirect you to the Software Update prompts within System Preferences.", 
+        "mainContentSubHeader": "Updates can take around 40 minutes to complete.",
+        "mainContentText": "A fully up-to-date device ensures the security of Figma's data. Your macOS device is running a non supported major OS version. Please update to macOS to the latest OS within the allotted *Days Remaining To Update* in the left column of this window.\n\nTo begin the update, click the *Open Software Update* button and follow the prompts.\n\nAdditional info about this can be found by clicking the *More Info About Updates At Figma* link.",        
         "mainHeader": "Your device requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
