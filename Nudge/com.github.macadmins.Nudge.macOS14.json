@@ -16,8 +16,8 @@
           "aboutUpdateURL": "https://www.notion.so/figma/Nudge-macOS-Updates-08ff479f262542c09c26cf2ad9ac3551"
         }
       ],
-      "requiredInstallationDate": "2024-03-16T00:00:01Z",
-      "requiredMinimumOSVersion": "14.3",
+      "requiredInstallationDate": "2025-06-25T00:00:01Z",
+      "requiredMinimumOSVersion": "14.7.6",
       "targetedOSVersionsRule": "14"
     }
   ],
