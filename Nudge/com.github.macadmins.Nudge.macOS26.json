@@ -1,0 +1,64 @@
+{
+  "optionalFeatures": {
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": false,
+    "aggressiveUserFullScreenExperience": false,
+    "asynchronousSoftwareUpdate": false,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://www.notion.so/figma/Nudge-macOS-Updates-08ff479f262542c09c26cf2ad9ac3551"
+        }
+      ],
+      "requiredInstallationDate": "2025-10-25T00:00:01Z",
+      "requiredMinimumOSVersion": "26.0",
+      "targetedOSVersionsRule": "26"
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 1000000,
+    "allowLaterDeferralButton": false,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 1800,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 2400,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Users/Shared/Nudge/fig.png",
+    "iconLightPath": "/Users/Shared/Nudge/fig.png",
+    "screenShotDarkPath": "/Users/Shared/Nudge/supdate.png",
+    "screenShotLightPath": "/Users/Shared/Nudge/supdate.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Open Software Update",
+        "informationButtonText": "More Info About Updates At Figma",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes About This Update",
+        "mainContentSubHeader": "Updates can take around 20-40 minutes to complete.",
+        "mainContentText": "A fully up-to-date device ensures the security of Figma's data. Please update your macOS device within the allotted *Days Remaining To Update* in the left column of this window.\n\nTo begin the update, click the *Open Software Update* button and follow the prompts. Additional info about this can be found by clicking the *More Info About Updates At Figma* link.",
+        "mainHeader": "Your device requires a macOS Security Update",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from your Figma IT team"
+      }
+    ]
+  }
+}
